@@ -48,7 +48,7 @@ const TableCrud = () => {
     fetchData();
   }, [navigate]);
 
-
+// fdjjhdf
   const open = () => {
     axios.get('https://omofood.pythonanywhere.com/api/v1/categories/').then((res) => setDaCat(res?.data))
     setIsopen(true)
